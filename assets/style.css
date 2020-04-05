@@ -1,3 +1,28 @@
-#Name {
-    
+body {
+    background-image: url("images/ugly-background.jpg") ;
+    background-position: center center;
+    background-attachment: fixed;
+    background-color: #ffffff;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: hidden;
+}
+
+#dumbbar {
+    border-style: solid;
+    border-width: 0px;
+    border-bottom-width: 5px;
+    border-color:#50bbfc;  
+}
+
+#Profile {
+    width: 400px;
+}
+
+@media screen and (max-width: 768px) {
+
+    #Profile {
+        width: 100%;
+    }
+
 }

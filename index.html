@@ -3,28 +3,28 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Me</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/style.css">
 
 </head>
 
 <body>
 
-    <div class="row">
+    <!--I don't want to talk about how insane trying to get this dual nav to work is making me feel.-->
 
-        <div class="col-sm-3 col-md-2" id="Name">
+    <!-- <nav class="row sticky-top" id="dumbbar">
 
-            <nav class="navbar mr-sm-n5 navbar-dark bg-secondary  justify-content-center">
+        <div class="col-sm-3 col-md-2">
+            <div class="navbar mr-sm-n5 navbar-dark bg-dark justify-content-center">
                 <a class="navbar-brand" href="#">Peter Baker</a>
-            </nav>
-
+            </div>
         </div>
 
         <div class="col-sm-9 col-md-10">
-
-            <nav class="navbar navbar-light bg-light justify-content-sm-end justify-content-center">
+            <div class="navbar mr-sm-n1 navbar-light bg-light justify-content-sm-end justify-content-center">
             <ul class="nav">
                 <li class="nav-item">
                     <a class="nav-link active" href="#">About</a>
@@ -37,13 +37,12 @@
                 </li>
             </ul>
             </nav>
-
         </div>
 
-    </div>
+    </nav> -->
 
-    <!-- <nav class="navbar flex-column flex-sm-row navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">About Me</a>
+    <nav class="navbar flex-column flex-sm-row navbar-light bg-light" id="dumbbar">
+        <a class="navbar-brand pl-5" href="#">Peter Baker</a>
         <ul class="nav justify-content-end">
             <li class="nav-item">
                 <a class="nav-link active" href="#">About</a>
@@ -55,7 +54,60 @@
                 <a class="nav-link" href="#">Contact</a>
             </li>
         </ul>
-    </nav> -->
+    </nav>
+
+    <div class="container">
+
+        <div class="row bg-light mt-5">
+            <div class="col-sm-12">
+                
+                <h1 class="display-1">
+                    about me.
+                </h1>
+              
+                <hr>
+
+                <div>
+
+                    <img src="assets/images/Profile.jpg" class="mr-3 float-sm-left mb-5 mb-sm-auto" alt="" id="Profile">
+
+                    <p class="lead"> <!--Not being able to create padding above this below the sm breakpoint is almost as frustrating as the dualnav header that's driving me crazy-->
+                        You have to start somewhere.
+                    </p>
+
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce fringilla sagittis eros, id feugiat turpis fermentum fermentum. Maecenas ac ornare sem, nec pulvinar nisl. Ut tellus nunc, rhoncus vel semper a, ornare vitae ipsum. Proin consequat nibh ut bibendum vulputate. Duis ultrices, orci non fermentum scelerisque, ipsum nisi rutrum diam, eu ullamcorper ex magna in purus. Etiam quis ultricies lacus. Aenean in eleifend orci. Etiam laoreet id lacus pellentesque laoreet.
+
+                        Phasellus ac cursus velit. Curabitur arcu leo, varius nec tempor et, pretium ut magna. Suspendisse potenti. Quisque nec mi ornare, pulvinar ipsum quis, elementum leo. Ut ultrices, ipsum ac pulvinar imperdiet, lorem ipsum lobortis odio, at facilisis magna erat in lorem. Phasellus suscipit sodales risus, ut elementum lectus tincidunt eleifend. Donec tempor mi sed dui ultrices condimentum. Nunc neque velit, condimentum vitae lectus ultricies, condimentum accumsan orci. Donec at scelerisque quam. Integer fermentum lobortis est, eget lobortis ante facilisis ac. Aenean commodo suscipit nisl in maximus. Donec sed erat vel ante tempor vulputate vel non purus.
+
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce fringilla sagittis eros, id feugiat turpis fermentum fermentum. Maecenas ac ornare sem, nec pulvinar nisl. Ut tellus nunc, rhoncus vel semper a, ornare vitae ipsum. Proin consequat nibh ut bibendum vulputate. Duis ultrices, orci non fermentum scelerisque, ipsum nisi rutrum diam, eu ullamcorper ex magna in purus. Etiam quis ultricies lacus. Aenean in eleifend orci. Etiam laoreet id lacus pellentesque laoreet.
+
+                        Phasellus ac cursus velit. Curabitur arcu leo, varius nec tempor et, pretium ut magna. Suspendisse potenti. Quisque nec mi ornare, pulvinar ipsum quis, elementum leo. Ut ultrices, ipsum ac pulvinar imperdiet, lorem ipsum lobortis odio, at facilisis magna erat in lorem. Phasellus suscipit sodales risus, ut elementum lectus tincidunt eleifend. Donec tempor mi sed dui ultrices condimentum. Nunc neque velit, condimentum vitae lectus ultricies, condimentum accumsan orci. Donec at scelerisque quam. Integer fermentum lobortis est, eget lobortis ante facilisis ac. Aenean commodo suscipit nisl in maximus. Donec sed erat vel ante tempor vulputate vel non purus.
+                    </p>
+
+                </div>
+
+            </div>
+        </div>
+
+        <div class="row bg-light mt-5">
+            <div class="col-sm-6 pt-3"> 
+
+                <p>
+                    This is a main text body describing me using this disgusting looking webpage.
+                </p>
+
+            </div>
+            <div class="col-sm-6 pt-3">
+
+                <p>
+                    This is a main text body describing me using this disgusting looking webpage.
+                </p>
+
+            </div>
+        </div>
+
+    </div>
 
 </body>
 
