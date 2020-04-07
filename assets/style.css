@@ -8,6 +8,19 @@ body {
     overflow-x: hidden;
 }
 
+.imageoverlaytext {
+    position: absolute;
+    top: 70%;
+    left: 0;
+    width: calc(100% - 30px);
+    margin: 15px;
+    padding: 15px 0px;;
+    background-color: rgba(0, 0, 0,  0.6) 
+}
+
+/* This feels like a very unsatisfying hack, maybe I'll come back to it.
+https://stackoverflow.com/questions/5219175/how-to-make-an-element-width-100-minus-padding */
+
 #dumbbar {
     border-style: solid;
     border-width: 0px;
