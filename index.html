@@ -41,8 +41,8 @@
 
     </nav> -->
 
-    <nav class="navbar flex-column flex-sm-row navbar-light bg-light" id="dumbbar">
-        <a class="navbar-brand pl-5" href="#">Peter Baker</a>
+    <nav class="navbar flex-column flex-md-row navbar-light bg-light" id="dumbbar">
+        <a class="navbar-brand pl-md-5" href="#">Peter Baker</a>
         <ul class="nav justify-content-end">
             <li class="nav-item">
                 <a class="nav-link active" href="#">About</a>
@@ -51,15 +51,15 @@
                 <a class="nav-link" href="#">Portfolio</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
+                <a class="nav-link" href="contact.html">Contact</a>
             </li>
         </ul>
     </nav>
 
-    <div class="container">
+    <main class="container mt-n4 mt-md-auto">
 
         <div class="row bg-light mt-5">
-            <div class="col-sm-12">
+            <div class="col-md-12">
                 
                 <h1 class="display-1">
                     about me.
@@ -69,9 +69,9 @@
 
                 <div>
 
-                    <img src="assets/images/Profile.jpg" class="mr-3 float-sm-left mb-5 mb-sm-auto" alt="" id="Profile">
+                    <img src="assets/images/Profile.jpg" class="mr-3 float-md-left mb-3 mb-md-auto" alt="" id="Profile">
 
-                    <p class="lead"> <!--Not being able to create padding above this below the sm breakpoint is almost as frustrating as the dualnav header that's driving me crazy-->
+                    <p class="lead">
                         You have to start somewhere.
                     </p>
 
@@ -90,7 +90,7 @@
             </div>
         </div>
 
-        <div class="row bg-light mt-5">
+        <div class="row bg-light mt-3">
             <div class="col-sm-6 pt-3"> 
 
                 <p>
@@ -110,8 +110,16 @@
             </div>
         </div>
 
-    </div>
+    </main>
 
+    <footer class="footer fixed-bottom py-2 bg-light text-muted" style="height: 40px">
+        <div class="container text-center">
+            <span class="text-muted">Copyright &copy;</span>
+        </div>
+    </footer>
+    
 </body>
 
 </html>
+
+<!-- Resources used: https://medium.com/@josephcardillo/how-to-add-a-sticky-footer-using-bootstrap-ad7cf69838e7 -->
