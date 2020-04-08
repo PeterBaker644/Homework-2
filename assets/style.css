@@ -38,9 +38,13 @@ main {
 }
 
 @media screen and (max-width: 768px) {
-
     #Profile {
         width: 100%;
     }
+}
 
+@media screen and (max-width: 576px) {
+    .display-1 {
+        font-size: 4rem;
+    }
 }
