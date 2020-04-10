@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         crossorigin="anonymous">
     <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="assets/primary.css">
     <script src="https://kit.fontawesome.com/616f60f3ca.js"></script>
 
 </head>
@@ -16,16 +17,21 @@
 
     <!--Tried to make a funky dual tone header using just Bootstrap. I think I like the simpler one better, but this is closer to the style of the sample.-->
 
-    <!-- <nav class="row" id="headerflair">
+    <nav class="d-flex" id="headerflair">
 
-        <div class="col-md-3 col-lg-2">
-            <div class="navbar mr-md-n5 navbar-dark bg-dark justify-content-center">
+        <div class="col-md-1 col-lg-1 neganav">
+            <div class="navbar navbar-light bg-light" style="height:56px">
+            </div>
+        </div>
+
+        <div class="col-md-3 col-lg-2 neganav">
+            <div class="navbar navbar-dark bg-primary justify-content-center">
                 <a class="navbar-brand" href="#">Peter Baker</a>
             </div>
         </div>
 
-        <div class="col-md-9 col-lg-10">
-            <div class="navbar mr-md-n1 navbar-light bg-light justify-content-md-end justify-content-center">
+        <div class="col-md-8 col-lg-9 neganav">
+            <div class="navbar navbar-light bg-light justify-content-md-end justify-content-center">
             <ul class="nav">
                 <li class="nav-item">
                     <a class="nav-link active" href="#">About</a>
@@ -40,9 +46,9 @@
             </nav>
         </div>
 
-    </nav> -->
+    </nav>
 
-    <nav class="navbar flex-column flex-md-row navbar-light bg-light">
+    <!-- <nav class="navbar flex-column flex-md-row navbar-light bg-light">
         <a class="navbar-brand pl-md-5" href="#">Peter Baker</a>
         <ul class="nav justify-content-end">
             <li class="nav-item">
@@ -55,14 +61,14 @@
                 <a class="nav-link" href="contact.html">Contact</a>
             </li>
         </ul>
-    </nav>
+    </nav> -->
 
     <main class="container mt-n4 mt-md-auto">
 
         <section class="row bg-light mt-5">
             <div class="col-md-12">
                 
-                <h1 class="display-1 text-md-left text-center">
+                <h1 class="display-3 text-md-left text-center">
                     about me.
                 </h1>
               
@@ -111,9 +117,9 @@
 
     </main>
 
-    <footer class="footer fixed-bottom py-2 bg-light text-muted">
+    <footer class="footer fixed-bottom py-4 bg-dark text-muted">
         <div class="container text-center">
-            <span class="text-muted ">Copyright &copy; &nbsp;</span>
+            <span class="text-white ">Copyright &copy; &nbsp;</span>
                 <a target="_blank" href="https://www.linkedin.com/in/peter-baker-b324a21a3/"><i class="fab fa-linkedin-in"></i>
                 </a>
                 <a target="_blank" href="https://github.com/PeterBaker644/"><i class="fab fa-github"></i>

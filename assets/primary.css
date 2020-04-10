@@ -1,0 +1,119 @@
+
+/*------------------------------------
+- COLOR primary - Customized with https://lingtalfi.com/bootstrap4-color-generator
+------------------------------------*/
+
+.badge-primary {
+    color: #212529;
+    background-color: #59aaa5;
+}
+
+.badge-primary[href]:hover, .badge-primary[href]:focus {
+    color: #212529;
+    background-color: #468985;
+}
+
+.bg-primary {
+    background-color: #59aaa5 !important;
+}
+
+a.bg-primary:hover, a.bg-primary:focus,
+button.bg-primary:hover,
+button.bg-primary:focus {
+    background-color: #468985 !important;
+}
+
+.btn-primary {
+    color: #212529;
+    background-color: #59aaa5;
+    border-color: #59aaa5;
+}
+
+.btn-primary:hover {
+    color: #212529;
+    background-color: #4b938f;
+    border-color: #468985;
+}
+
+.btn-primary:focus, .btn-primary.focus {
+    box-shadow: 0 0 0 0.2rem rgba(89, 170, 165, 0.5);
+}
+
+.btn-primary.disabled, .btn-primary:disabled {
+    color: #212529;
+    background-color: #59aaa5;
+    border-color: #59aaa5;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active, .show > .btn-primary.dropdown-toggle {
+    color: #212529;
+    background-color: #468985;
+    border-color: #417f7b;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus, .show > .btn-primary.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem rgba(89, 170, 165, 0.5);
+}
+
+.btn-outline-primary {
+    color: #59aaa5;
+    background-color: transparent;
+    border-color: #59aaa5;
+}
+
+.btn-outline-primary:hover {
+    color: #212529;
+    background-color: #59aaa5;
+    border-color: #59aaa5;
+}
+
+.btn-outline-primary:focus, .btn-outline-primary.focus {
+    box-shadow: 0 0 0 0.2rem rgba(89, 170, 165, 0.5);
+}
+
+.btn-outline-primary.disabled, .btn-outline-primary:disabled {
+    color: #59aaa5;
+    background-color: transparent;
+}
+
+.btn-outline-primary:not(:disabled):not(.disabled):active, .btn-outline-primary:not(:disabled):not(.disabled).active, .show > .btn-outline-primary.dropdown-toggle {
+    color: #212529;
+    background-color: #59aaa5;
+    border-color: #59aaa5;
+}
+
+.btn-outline-primary:not(:disabled):not(.disabled):active:focus, .btn-outline-primary:not(:disabled):not(.disabled).active:focus, .show > .btn-outline-primary.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem rgba(89, 170, 165, 0.5);
+}
+
+.list-group-item-primary {
+    color: #2e5a57;
+    background-color: #d2e8e6;
+}
+
+.list-group-item-primary.list-group-item-action:hover, .list-group-item-primary.list-group-item-action:focus {
+    color: #2e5a57;
+    background-color: #c1dfdd;
+}
+
+.list-group-item-primary.list-group-item-action.active {
+    color: #212529;
+    background-color: #2e5a57;
+    border-color: #2e5a57;
+}
+
+.text-primary, .fab{
+    color: white !important
+}
+
+.nav-link {
+    color: rgba(153, 153, 153, 1)
+}
+
+a.text-primary:hover, a.text-primary:focus, .nav-link:hover, .fab:hover {
+    color: #468985 !important;
+}
+
+.bg-dark {
+    background-color: rgba(153, 153, 153, 1) !important;
+}
