@@ -1,9 +1,12 @@
 
 /*------------------------------------
-- COLOR primary - Customized with https://lingtalfi.com/bootstrap4-color-generator
+Customized with https://lingtalfi.com/bootstrap4-color-generator
+               ----
+I realize there is much more in here than necessary. I'm leaving this in in case I have to tweak bootstrap again in the future.
 ------------------------------------*/
 
-.badge-primary {
+
+/* .badge-primary {
     color: #212529;
     background-color: #59aaa5;
 }
@@ -11,7 +14,7 @@
 .badge-primary[href]:hover, .badge-primary[href]:focus {
     color: #212529;
     background-color: #468985;
-}
+} */
 
 .bg-primary {
     background-color: #59aaa5 !important;
@@ -22,6 +25,7 @@ button.bg-primary:hover,
 button.bg-primary:focus {
     background-color: #468985 !important;
 }
+
 
 .btn-primary {
     color: #212529;
@@ -55,6 +59,7 @@ button.bg-primary:focus {
     box-shadow: 0 0 0 0.2rem rgba(89, 170, 165, 0.5);
 }
 
+/*
 .btn-outline-primary {
     color: #59aaa5;
     background-color: transparent;
@@ -100,10 +105,10 @@ button.bg-primary:focus {
     color: #212529;
     background-color: #2e5a57;
     border-color: #2e5a57;
-}
+} */
 
 .text-primary, .fab{
-    color: white !important
+    color: white !important;
 }
 
 .nav-link {
@@ -116,4 +121,9 @@ a.text-primary:hover, a.text-primary:focus, .nav-link:hover, .fab:hover {
 
 .bg-dark {
     background-color: rgba(153, 153, 153, 1) !important;
+}
+
+.form-control:active, .form-control:focus{
+    border-color: #72bbb6 !important;
+    box-shadow: 0px 0px 0px 3px #c1dfdd;
 }

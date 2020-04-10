@@ -15,32 +15,30 @@
 
 <body>
 
-    <!--Tried to make a funky dual tone header using just Bootstrap. I think I like the simpler one better, but this is closer to the style of the sample.-->
+    <nav class="row no-gutters" id="headerflair">
 
-    <nav class="d-flex" id="headerflair">
-
-        <div class="col-md-1 col-lg-1 neganav">
+        <div class="col-md-1 col-lg-1 d-none d-md-block d-lg-block">
             <div class="navbar navbar-light bg-light" style="height:56px">
             </div>
         </div>
 
-        <div class="col-md-3 col-lg-2 neganav">
+        <div class="col-md-3 col-lg-2">
             <div class="navbar navbar-dark bg-primary justify-content-center">
                 <a class="navbar-brand" href="#">Peter Baker</a>
             </div>
         </div>
 
-        <div class="col-md-8 col-lg-9 neganav">
+        <div class="col-md-8 col-lg-9">
             <div class="navbar navbar-light bg-light justify-content-md-end justify-content-center">
             <ul class="nav">
                 <li class="nav-item">
                     <a class="nav-link active" href="#">About</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Portfolio</a>
+                    <a class="nav-link" href="portfolio.html">Portfolio</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
+                    <a class="nav-link" href="contact.html">Contact</a>
                 </li>
             </ul>
             </nav>
@@ -48,33 +46,18 @@
 
     </nav>
 
-    <!-- <nav class="navbar flex-column flex-md-row navbar-light bg-light">
-        <a class="navbar-brand pl-md-5" href="#">Peter Baker</a>
-        <ul class="nav justify-content-end">
-            <li class="nav-item">
-                <a class="nav-link active" href="#">About</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="portfolio.html">Portfolio</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact</a>
-            </li>
-        </ul>
-    </nav> -->
-
     <main class="container mt-n4 mt-md-auto">
 
-        <section class="row bg-light mt-5">
+        <article class="row bg-light mt-5">
             <div class="col-md-12">
                 
-                <h1 class="display-3 text-md-left text-center">
+                <h1 class="display-1 text-md-left text-center">
                     about me.
                 </h1>
               
                 <hr>
 
-                <div>
+                <section>
 
                     <img src="assets/images/Profile.jpg" class="mr-3 float-md-left mb-3 mb-md-auto" alt="Profile Picture" id="Profile">
 
@@ -94,8 +77,8 @@
 
                 </div>
 
-            </div>
-        </section>
+            </section>
+        </article>
 
         <section class="row bg-light mt-3">
             <div class="col-md-6 pt-3 mt-md-auto mb-5"> 
@@ -117,14 +100,14 @@
 
     </main>
 
-    <footer class="footer fixed-bottom py-4 bg-dark text-muted">
+    <footer class="footer fixed-bottom py-4 bg-dark">
         <div class="container text-center">
             <span class="text-white ">Copyright &copy; &nbsp;</span>
-                <a target="_blank" href="https://www.linkedin.com/in/peter-baker-b324a21a3/"><i class="fab fa-linkedin-in"></i>
+                <a target="_blank" href="https://www.linkedin.com/in/peter-baker-b324a21a3/" class="noline"><i class="fab fa-linkedin-in"></i> &nbsp;
                 </a>
-                <a target="_blank" href="https://github.com/PeterBaker644/"><i class="fab fa-github"></i>
+                <a target="_blank" href="https://github.com/PeterBaker644/" class="noline"><i class="fab fa-github"></i> &nbsp;
                 </a>
-                <a target="_blank" href="https://www.instagram.com/sirchamomile/"><i class="fab fa-instagram"></i>
+                <a target="_blank" href="https://www.instagram.com/sirchamomile/" class="noline"><i class="fab fa-instagram"></i>
                 </a>
         </div>
     </footer>

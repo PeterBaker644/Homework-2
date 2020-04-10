@@ -9,7 +9,7 @@ body {
 }
 
 main {
-    margin-bottom: 90px;
+    margin-bottom: 95px;
 }
 
 nav {
@@ -26,10 +26,6 @@ footer {
     border-color:#59aaa5;  
 }
 
-.neganav {
-    padding: 0;
-}
-
 .imageoverlaytext {
     position: absolute;
     bottom: 20px;
@@ -37,22 +33,17 @@ footer {
     width: calc(100% - 30px);
     margin: 15px;
     padding: 15px 0px;
-    background-color: rgba(0, 0, 0,  0.6) 
+    background-color: #2e5a579c
 }
 
-/* .navbar-brand {
-    background-color: cadetblue;
-} */
-
-/* This feels like a very unsatisfying hack, maybe I'll come back to it.
-https://stackoverflow.com/questions/5219175/how-to-make-an-element-width-100-minus-padding */
-
-.i .fab:hover {
-    text-decoration-line: none;
-}
+/* https://stackoverflow.com/questions/5219175/how-to-make-an-element-width-100-minus-padding */
 
 #Profile {
     width: 400px;
+}
+
+.noline {
+    text-decoration-line: none !important;
 }
 
 @media screen and (max-width: 768px) {
