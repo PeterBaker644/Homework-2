@@ -8,15 +8,15 @@ body {
     overflow-x: hidden;
 }
 
-main {
-    margin-bottom: 95px;
-}
-
 nav {
     border-style: solid;
     border-width: 0px;
     border-bottom-width: 2px;
     border-color:rgba(153, 153, 153, 1);  
+}
+
+main {
+    margin-bottom: 95px;
 }
 
 footer {
@@ -38,12 +38,12 @@ footer {
 
 /* https://stackoverflow.com/questions/5219175/how-to-make-an-element-width-100-minus-padding */
 
-#Profile {
-    width: 400px;
-}
-
 .noline {
     text-decoration-line: none !important;
+}
+
+#Profile {
+    width: 400px;
 }
 
 @media screen and (max-width: 768px) {

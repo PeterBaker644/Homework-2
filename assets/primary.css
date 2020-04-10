@@ -107,14 +107,6 @@ button.bg-primary:focus {
     border-color: #2e5a57;
 } */
 
-.text-primary, .fab{
-    color: white !important;
-}
-
-.nav-link {
-    color: rgba(153, 153, 153, 1)
-}
-
 a.text-primary:hover, a.text-primary:focus, .nav-link:hover, .fab:hover {
     color: #468985 !important;
 }
@@ -125,5 +117,17 @@ a.text-primary:hover, a.text-primary:focus, .nav-link:hover, .fab:hover {
 
 .form-control:active, .form-control:focus{
     border-color: #72bbb6 !important;
+}
+
+.form-control:active, .form-control:focus{
+    border-color: #72bbb6 !important;
     box-shadow: 0px 0px 0px 3px #c1dfdd;
+}
+
+.nav-link {
+    color: rgba(153, 153, 153, 1)
+}
+
+.text-primary, .fab{
+    color: white !important;
 }
