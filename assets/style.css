@@ -57,3 +57,5 @@ footer {
         font-size: 4rem;
     }
 }
+
+/* I realize that it is possible using .scss to enable responsive fonts in bootstrap, but learning how to use a package manager to import Bootstrap felt very far out of the scope of the assignment - same goes for the color tweaks in primary.css */
