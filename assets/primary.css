@@ -116,10 +116,6 @@ a.text-primary:hover, a.text-primary:focus, .nav-link:hover, .fab:hover {
 
 .form-control:active, .form-control:focus{
     border-color: #72bbb6 !important;
-}
-
-.form-control:active, .form-control:focus{
-    border-color: #72bbb6 !important;
     box-shadow: 0px 0px 0px 3px #c1dfdd;
 }
 
