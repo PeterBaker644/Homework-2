@@ -4,12 +4,12 @@ This is a sample website created to show knowledge of Bootstrap and responsive d
 
 ## About Me
 
-![About Me Page Screenshot](screenshots/about-me.jpg)
+![About Me Page Screenshot](https://raw.githubusercontent.com/PeterBaker644/Homework-2/master/screenshots/about-me.png)
 
 ## Portfolio
 
-![Portfolio Page Screenshot](screenshots/portfolio.jpg)
+![Portfolio Page Screenshot](https://raw.githubusercontent.com/PeterBaker644/Homework-2/master/screenshots/portfolio.png)
 
 ##  Contact
 
-![Contact Page Screenshot](screenshots/contact.jpg)
+![Contact Page Screenshot](https://raw.githubusercontent.com/PeterBaker644/Homework-2/master/screenshots/contact.png)
