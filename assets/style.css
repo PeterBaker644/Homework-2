@@ -15,6 +15,10 @@ nav {
     border-color:rgba(153, 153, 153, 1);  
 }
 
+a.navbar-brand {
+    margin-right: 0px; 
+}
+
 main {
     margin-bottom: 95px;
 }
@@ -45,6 +49,11 @@ footer {
 #Profile {
     width: 400px;
 }
+
+/* #Middle {
+    border-left: 1px solid grey;
+    border-right: 1px solid grey;
+} */
 
 @media screen and (max-width: 768px) {
     #Profile {
